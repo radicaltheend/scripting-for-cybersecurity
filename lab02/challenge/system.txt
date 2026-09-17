@@ -1,0 +1,3 @@
+codespaces-e2cd15
+/bin/bash
+/home/codespace
