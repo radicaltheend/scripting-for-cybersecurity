@@ -1,0 +1,4 @@
+5
+92
+echo $(env | wc -l)
+ABOVE IS THE COMMAND USED

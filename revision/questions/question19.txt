@@ -1,0 +1,2 @@
+python_count=$(ls -a /usr/bin/ | grep "python" | wc -l)
+python related filesnames found: 6

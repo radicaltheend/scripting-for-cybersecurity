@@ -1,0 +1,22 @@
+Linux CLI Revision Report
+User: codespace
+Host: codespaces-18a595
+Directory: /workspaces/scripting-for-cybersecurity/revision
+Shell: /bin/bash
+Python: /home/codespace/.python/current/bin/python3
+Environment variables: 92
+Python-related filenames: 6
+ 
+HISTORY: 
+    1  echo $SHELL
+    2  nano revision-report.txt 
+    3  echo "Python: $(which python3)" >> revision-report.txt 
+    4  env | wc -l
+    5  echo "Environment variables: $(env | wc -l)" >> revision-report.txt 
+    6  echo "Python-related filenames: $(ls -a /usr/bin | grep "python" | wc -l)" >> revision-report.txt 
+    7  cat revision-report.txt 
+    8  history
+    9  echo " " >> revision-report.txt 
+   10  cat revision-report.txt 
+   11  echo "HISTORY: ">> revision-report.txt 
+   12  echo "$(history)" >> revision-report.txt 

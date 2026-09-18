@@ -1,0 +1,2 @@
+User codespace is logged into codespaces-18a595 and is currently in /workspaces/scripting-for-cybersecurity/revision
+echo "User $username is logged into $hostname and is currently in $direc"
