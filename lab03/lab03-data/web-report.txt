@@ -1,0 +1,16 @@
+Web Access Analysis
+ 
+Total requests: 220
+403 Responses: 34
+404 Responses: 37
+Requests to /admin: 29
+Requests to /.env: 9
+SQL requests: 60
+ 
+Top Source IPs
+192.168.1.20
+192.168.1.35
+198.51.100.24
+198.51.100.99
+203.0.113.10
+203.0.113.77
