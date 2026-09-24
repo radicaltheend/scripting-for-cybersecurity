@@ -1,0 +1,6 @@
+evidence/image.png: PNG image data, 1 x 1, 8-bit/color RGBA, non-interlaced
+evidence/archive.zip: Zip archive data, at least v2.0 to extract, compression method=deflate
+evidence/empty.bin: empty
+evidence/suspicious.dat: ELF, unknown class 154
+scripts/scan.py: ASCII text
+scripts/check.sh: Bourne-Again shell script, ASCII text executable

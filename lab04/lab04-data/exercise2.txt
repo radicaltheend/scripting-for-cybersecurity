@@ -1,0 +1,16 @@
+./scripts/report.py
+./scripts/scan.py
+ 
+logs/access.log
+logs/auth.log
+logs/firewall.log
+ 
+./configs/app.conf
+./configs/backup.conf
+./configs/server.conf
+ 
+evidence/notes.txt
+evidence/passwords.txt
+ 
+./config-old.txt
+./config-new.txt

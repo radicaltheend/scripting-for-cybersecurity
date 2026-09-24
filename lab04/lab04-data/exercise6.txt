@@ -1,0 +1,2 @@
+suspicious.dat
+/workspaces/scripting-for-cybersecurity/lab04/lab04-data/evidence
