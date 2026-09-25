@@ -1,0 +1,76 @@
+configs/app.conf:port=8080
+configs/server.conf:port=443
+ 
+logs/firewall.log:BLOCK 203.0.113.10 -> 10.0.0.10:22
+logs/auth.log:Sep 20 08:00:20 server sshd[1001]: Failed password for guest from 203.0.113.10 port 44572 ssh2
+logs/auth.log:Sep 20 08:00:50 server sshd[1002]: Failed password for oracle from 203.0.113.10 port 53825 ssh2
+logs/auth.log:Sep 20 08:03:22 server sshd[1005]: Failed password for guest from 203.0.113.10 port 45231 ssh2
+logs/auth.log:Sep 20 08:08:51 server sshd[1012]: Failed password for root from 203.0.113.10 port 46865 ssh2
+logs/auth.log:Sep 20 08:15:11 server sshd[1020]: Failed password for test from 203.0.113.10 port 44532 ssh2
+logs/auth.log:Sep 20 08:17:26 server sshd[1023]: Failed password for root from 203.0.113.10 port 58128 ssh2
+logs/auth.log:Sep 20 08:26:54 server sshd[1035]: Failed password for admin from 203.0.113.10 port 40689 ssh2
+logs/auth.log:Sep 20 08:27:43 server sshd[1036]: Failed password for test from 203.0.113.10 port 63194 ssh2
+logs/auth.log:Sep 20 08:28:32 server sshd[1037]: Failed password for admin from 203.0.113.10 port 50827 ssh2
+logs/auth.log:Sep 20 08:33:01 server sshd[1043]: Failed password for root from 203.0.113.10 port 46012 ssh2
+logs/auth.log:Sep 20 08:33:49 server sshd[1044]: Failed password for oracle from 203.0.113.10 port 58033 ssh2
+logs/auth.log:Sep 20 08:35:22 server sshd[1046]: Failed password for root from 203.0.113.10 port 53141 ssh2
+logs/auth.log:Sep 20 08:36:03 server sshd[1047]: Failed password for admin from 203.0.113.10 port 54909 ssh2
+logs/auth.log:Sep 20 08:38:40 server sshd[1050]: Failed password for root from 203.0.113.10 port 55623 ssh2
+logs/auth.log:Sep 20 08:45:32 server sshd[1059]: Failed password for admin from 203.0.113.10 port 42254 ssh2
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:00:13 +0100] "GET /assets/app.js HTTP/1.1" 200 4754 "-" "Mozilla/5.0"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:01:17 +0100] "GET /admin HTTP/1.1" 200 5392 "-" "sqlmap/1.8"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:02:39 +0100] "GET / HTTP/1.1" 200 1764 "-" "python-requests/2.31"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:05:12 +0100] "GET / HTTP/1.1" 302 7389 "-" "Mozilla/5.0"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:06:23 +0100] "GET / HTTP/1.1" 200 2905 "-" "curl/8.4.0"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:07:18 +0100] "GET /robots.txt HTTP/1.1" 200 7742 "-" "Mozilla/5.0"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:13:29 +0100] "GET / HTTP/1.1" 403 11200 "-" "curl/8.4.0"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:14:36 +0100] "GET /login HTTP/1.1" 403 9697 "-" "python-requests/2.31"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:19:19 +0100] "GET /.env HTTP/1.1" 404 1621 "-" "sqlmap/1.8"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:22:18 +0100] "GET / HTTP/1.1" 200 1161 "-" "Mozilla/5.0"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:22:59 +0100] "GET /login HTTP/1.1" 302 8374 "-" "sqlmap/1.8"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:25:28 +0100] "GET /admin HTTP/1.1" 200 10846 "-" "Mozilla/5.0"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:25:56 +0100] "GET /wp-login.php HTTP/1.1" 200 6652 "-" "sqlmap/1.8"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:29:11 +0100] "GET / HTTP/1.1" 404 2002 "-" "python-requests/2.31"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:31:36 +0100] "GET /api/status HTTP/1.1" 403 981 "-" "Mozilla/5.0"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:32:46 +0100] "GET /login HTTP/1.1" 200 5775 "-" "Mozilla/5.0"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:33:42 +0100] "GET /admin HTTP/1.1" 200 3580 "-" "python-requests/2.31"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:37:14 +0100] "GET /index.html HTTP/1.1" 200 2874 "-" "python-requests/2.31"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:37:45 +0100] "GET / HTTP/1.1" 200 5872 "-" "python-requests/2.31"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:38:18 +0100] "GET / HTTP/1.1" 200 10859 "-" "curl/8.4.0"
+logs/access.log:203.0.113.10 - - [20/Sep/2026:08:40:20 +0100] "GET /login HTTP/1.1" 200 1377 "-" "python-requests/2.31"
+
+./logs/auth.log:Sep 20 08:01:35 server sshd[1003]: Failed password for admin from 198.51.100.24 port 40869 ssh2
+./logs/auth.log:Sep 20 08:04:08 server sshd[1006]: Failed password for admin from 203.0.113.200 port 51029 ssh2
+./logs/auth.log:Sep 20 08:04:45 server sshd[1007]: Failed password for admin from 198.51.100.77 port 59782 ssh2
+./logs/auth.log:Sep 20 08:07:21 server sshd[1010]: Failed password for admin from 198.51.100.24 port 49482 ssh2
+./logs/auth.log:Sep 20 08:14:10 server sshd[1019]: Failed password for admin from 198.51.100.24 port 48609 ssh2
+./logs/auth.log:Sep 20 08:22:15 server sshd[1029]: Failed password for admin from 198.51.100.77 port 50076 ssh2
+./logs/auth.log:Sep 20 08:25:23 server sshd[1033]: Failed password for admin from 198.51.100.24 port 63918 ssh2
+./logs/auth.log:Sep 20 08:26:54 server sshd[1035]: Failed password for admin from 203.0.113.10 port 40689 ssh2
+./logs/auth.log:Sep 20 08:28:32 server sshd[1037]: Failed password for admin from 203.0.113.10 port 50827 ssh2
+./logs/auth.log:Sep 20 08:29:01 server sshd[1038]: Failed password for admin from 198.51.100.24 port 57669 ssh2
+./logs/auth.log:Sep 20 08:30:46 server sshd[1040]: Failed password for admin from 198.51.100.24 port 53879 ssh2
+./logs/auth.log:Sep 20 08:36:03 server sshd[1047]: Failed password for admin from 203.0.113.10 port 54909 ssh2
+./logs/auth.log:Sep 20 08:41:50 server sshd[1054]: Failed password for admin from 198.51.100.24 port 58521 ssh2
+./logs/auth.log:Sep 20 08:42:34 server sshd[1055]: Failed password for admin from 203.0.113.15 port 50295 ssh2
+./logs/auth.log:Sep 20 08:43:12 server sshd[1056]: Failed password for admin from 198.51.100.24 port 54982 ssh2
+./logs/auth.log:Sep 20 08:45:32 server sshd[1059]: Failed password for admin from 203.0.113.10 port 42254 ssh2
+./logs/auth.log:Sep 20 08:46:20 server sshd[1060]: Failed password for admin from 198.51.100.77 port 63053 ssh2
+./logs/access.log:203.0.113.77 - - [20/Sep/2026:08:00:40 +0100] "GET /admin HTTP/1.1" 403 7436 "-" "curl/8.4.0"
+./logs/access.log:203.0.113.10 - - [20/Sep/2026:08:01:17 +0100] "GET /admin HTTP/1.1" 200 5392 "-" "sqlmap/1.8"
+./logs/access.log:192.168.1.35 - - [20/Sep/2026:08:12:30 +0100] "GET /admin HTTP/1.1" 500 2815 "-" "python-requests/2.31"
+./logs/access.log:198.51.100.24 - - [20/Sep/2026:08:19:44 +0100] "GET /admin HTTP/1.1" 200 4110 "-" "python-requests/2.31"
+./logs/access.log:198.51.100.99 - - [20/Sep/2026:08:21:15 +0100] "GET /admin HTTP/1.1" 403 10950 "-" "Mozilla/5.0"
+./logs/access.log:198.51.100.24 - - [20/Sep/2026:08:24:56 +0100] "GET /admin HTTP/1.1" 403 9907 "-" "sqlmap/1.8"
+./logs/access.log:203.0.113.10 - - [20/Sep/2026:08:25:28 +0100] "GET /admin HTTP/1.1" 200 10846 "-" "Mozilla/5.0"
+./logs/access.log:198.51.100.99 - - [20/Sep/2026:08:28:26 +0100] "GET /admin HTTP/1.1" 200 2655 "-" "curl/8.4.0"
+./logs/access.log:192.168.1.20 - - [20/Sep/2026:08:31:00 +0100] "GET /admin HTTP/1.1" 200 5705 "-" "sqlmap/1.8"
+./logs/access.log:192.168.1.35 - - [20/Sep/2026:08:32:06 +0100] "GET /admin HTTP/1.1" 403 7379 "-" "python-requests/2.31"
+./logs/access.log:203.0.113.10 - - [20/Sep/2026:08:33:42 +0100] "GET /admin HTTP/1.1" 200 3580 "-" "python-requests/2.31"
+./logs/access.log:192.168.1.35 - - [20/Sep/2026:08:34:42 +0100] "GET /admin HTTP/1.1" 200 1300 "-" "python-requests/2.31"
+./logs/access.log:203.0.113.77 - - [20/Sep/2026:08:39:26 +0100] "GET /admin HTTP/1.1" 200 7802 "-" "Mozilla/5.0"
+./backups/users.old:admin
+./evidence/notes.txt:admin account observed in repeated failed logins
+ 
+./configs/app.conf:debug=false
+./backups/config.old:debug=true

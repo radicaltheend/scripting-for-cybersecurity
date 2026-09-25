@@ -1,0 +1,21 @@
+evidence/suspicious.dat: ELF, unknown class 154
+evidence/notes.txt:      ASCII text
+evidence/empty.bin:      empty
+evidence/image.png:      PNG image data, 1 x 1, 8-bit/color RGBA, non-interlaced
+evidence/passwords.txt:  ASCII text
+evidence/archive.zip:    Zip archive data, at least v2.0 to extract, compression method=deflate
+evidence/readme.md:      ASCII text
+ 
+    5 logs/firewall.log
+   60 logs/auth.log
+   80 logs/access.log
+  145 total
+ 
+debug=false
+port=8080
+log_level=info
+host=0.0.0.0
+port=443
+tls=true
+destination=/backups
+retention_days=30

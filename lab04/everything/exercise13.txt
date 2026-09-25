@@ -1,0 +1,10 @@
+./evidence/archive.zip
+ 
+./evidence/archive.zip: Zip archive data, at least v2.0 to extract, compression method=deflate
+ 
+Archive:  ./evidence/archive.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+       18  2026-09-20 17:11   inside.txt
+---------                     -------
+       18                     1 file
