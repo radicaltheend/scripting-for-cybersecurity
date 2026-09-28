@@ -1,0 +1,5 @@
+Still runs even without the shebang#
+Done
+Still runs even with other shebang
+Bash and sh interpreter have different syntax so some specific commands can work
+/usr/bin/bash

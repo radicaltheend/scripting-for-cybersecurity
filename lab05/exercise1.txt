@@ -1,0 +1,2 @@
+It says hello workspaces (username) and the date using the commad date
+Permission denied. Its because you need to make it executable, its important for security
