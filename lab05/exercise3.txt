@@ -1,0 +1,6 @@
+ls -l
+chmod any 7 or chmod +x
+because . points to the directory so it will work there, without the . you not gonna be able unless add to the path file
+Yes, it works because in the user that who created but wouldnt work for any other user in the system
+chmod 744
+Looks OK, its gonna to check the code before running it because it could be malicious

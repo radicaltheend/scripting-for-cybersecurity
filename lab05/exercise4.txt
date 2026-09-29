@@ -1,0 +1,5 @@
+Done, vars2.sh
+It doesnt work because it never grabs the variable case, only space
+The only line that fails its the one that tries to execute a ls in the variable that corresponds to case, so if case 2 doesnt exist it cant be listed
+Because bash interpreter everything as integer, so 1/22 = 0 and 0 * 100 = 0
+Because ur using (( to calculate and aritmetic and abc has no value, the value is 0, 4+0 = 4

@@ -1,0 +1,4 @@
+Done
+Its gonna show all lines of the file, because it will grep for nothing and all lines has something
+It cant find the file in the directory because it doesnt exist so print the error output
+Nothing since the second input has nothing to add value to 
