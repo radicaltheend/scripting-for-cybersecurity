@@ -1,0 +1,4 @@
+Done
+Because banner.txt is a textfile, not an executable file because we didn't classified as .sh
+One that's assigned on the code is a fixed value, can only be changed on the code, the one that reads from the users changes the value of the variable as user wishes
+Done
