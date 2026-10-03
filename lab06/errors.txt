@@ -1,0 +1,1 @@
+Error: 'case/logs/missing.log' does not exist

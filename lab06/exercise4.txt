@@ -1,0 +1,4 @@
+No because users.csv and iocs.txt are not logs and the script is made purposely for logs, it still work but its not effective.
+The first one is checking if the user gave any file to check, if not cancels at first and dont use the system. The second one check if the file actually exist, if not also avoids the script to run for nothing
+To avoid any problems if the file has space or special characters
+Added, zero it's not the correct answer since block and failed means the same but with other words, since the script only searchs for failed it will never get how many blocks there is.

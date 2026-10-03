@@ -1,0 +1,6 @@
+ Doesnt show anything because on the code we never made print , # counts even though not printing and @ shows all together
+Nothing, since the /bin/bash doesnt count as a argument, nothing shows and nothing counts
+Because if theres no arguments, its impossible to have 
+Because * even representing only 1 line it also runs all the possible values inside case/*, its representing all the files inside as arguments
+Theres no difference but  will count the whole sentence as ONE single argument so it will search up for ACCEPTED PASSWORD while without  will search up only for ACCEPTED
+Had to find in access.log, auth.log and firewall.log, only firewall and auth had results

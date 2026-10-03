@@ -1,0 +1,2 @@
+The < adds the value of just the number result of wc to the wc input, removing the file name
+Instead of 3 lines organized everything was merged into 1 line

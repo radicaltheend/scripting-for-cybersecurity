@@ -1,0 +1,6 @@
+Not found, because its checking files inside the directory case of the actual directory, and since theres no case directory inside the case directory it cant search up
+Because the user will know exactly where and what was the mistake, more precise and efficient
+2> transfer the error output into another file, in this case errors.txt
+Now theres no more debugs so the system is more vulnerable and theres no more timeout for attempts, so i would take a closer look at those 2
+DRIFT
+./config_drift.sh case/config-new.txt case/config-old.txt > /dev/null && echo "NO DRIFT" || echo "DRIFT"
