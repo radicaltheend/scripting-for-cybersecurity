@@ -1,0 +1,5 @@
+Enter a keyword to search for (or press Enter to skip): sqlmap 
+Lines containing 'sqlmap': 22
+Nothing happens because -z its only true if the input is empty, opposite of -n
+Exit 1, because grep informs you with the exit code 0 if it returned something, 1 for nothing and 2 for any errors.
+Done, logstats updated

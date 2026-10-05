@@ -1,0 +1,4 @@
+The ranking is still the same but the attempts are more on auth.log of lab03
+It does appears because when we used awk to check for everything after for, and invalid even not being an user its after the word for in the log file
+Nothing, the script was made for auth.log, not access.log. To make it work we would have to change the greps for actually look for things on access.log
+The hacker probably tried to access through other ports/tried injections

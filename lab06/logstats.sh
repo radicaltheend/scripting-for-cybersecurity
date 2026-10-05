@@ -32,5 +32,15 @@ echo "Last line       : $LAST_LINE"
 echo "Longest line    : $LONGEST_LINE characters"
 echo "Failed logins   : $FAILED"
 echo "Blocked ips     : $BLOCK"
+read -p "Enter a keyword to search for (or press Enter to skip): " KEYWORD
+
+if [ -n "$KEYWORD" ]; then
+    MATCH_COUNT=$(grep -c "$KEYWORD" "$LOGFILE")
+    echo "$?"
+    if [ "$MATCH_COUNT" -eq 0 ]; then
+	echo "No matches found"
+    fi
+    echo "Lines containing '$KEYWORD': $MATCH_COUNT"
+fi
 
 exit 0
