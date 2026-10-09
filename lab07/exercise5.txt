@@ -1,0 +1,10 @@
+./order_bug.sh: line 5: [: ABC: integer expression expected
+./order_bug.sh: line 7: [: ABC: integer expression expected
+elif branch never runs on order_bug
+
+At least 10
+Non-negativo
+Negative
+
+Done, carriage_return.sh and carriage_return2.sh
+Its hard cause we literally can't see invisible character like \r but the system knows the difference by its binary

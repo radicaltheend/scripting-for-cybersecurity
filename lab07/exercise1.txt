@@ -1,0 +1,15 @@
+case/logs/auth.log : log file
+case/configs/app.conf : configuration file
+case/evidence/notes.txt : text document
+case/scripts/scan.py : script
+case/evidence/suspicious.dat : unrecognised extension 'dat'
+case/evidence/empty.bin is EMPTY
+It's important to be in the beginning if not it will take a long time checking the other options until it gets true
+
+Because if we want to change the value later we do it only once
+
+Every file that ends with .dat, .bin, .zip, .old.
+
+case/evidence/test does not exist — skipping the line count entirely.
+
+How many bytes there is in the image (1x1)

@@ -1,0 +1,16 @@
+CRITICAL: root should never accept password logins over SSH
+Warning: checking a generic admin account
+Guest account — should normally be disabled
+Checking standard account: alice
+
+No username entered, apparently no diffence
+
+Unrecognised answer: 'ha'
+Confirmed.
+
+Backup, because we can determine when a possible attack happened based on when debug was disabled or enabled.
+
+Only server.conf has TLS on
+
+
+Done.

@@ -1,0 +1,15 @@
+Risk: HIGH (15 failed attempts)
+Risk: MEDIUM (14 failed attempts)
+Risk: MEDIUM (8 failed attempts)
+Risk: MEDIUM (5 failed attempts)
+Risk: LOW (3 failed attempts)
+
+Error because ABC its a string and not integer, but we get risk high because all the other ifs were unsuccesful, leading to the last option
+
+I added in last place on the last else and made high be between 15 and 29, because it should test everything so the last option only last if the number is greater than 30
+
+The = is used to compare strings (-eq is you want for number), -gt is used to compare numbers (greater than) and \> is used to compare text orders
+
+Yes, the new port is also priviledge because its below 1024, its the protocol for HTTPS, encrypted HTTP
+
+Done

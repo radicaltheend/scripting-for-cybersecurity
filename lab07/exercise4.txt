@@ -1,0 +1,16 @@
+Done SQLSEARCH.sh
+
+Both scripts behave identically when the log file is readable and grep runs successfully.
+
+Will always be true even when no sqlmap was found, because echo will always be true so 0 will return 0
+
+admin: LEGACY account (only in the old backup list)
+backup: LEGACY account (only in the old backup list)
+guest: UNKNOWN account (in neither list)
+oracle: UNKNOWN account (in neither list)
+root: LEGACY account (only in the old backup list)
+test: UNKNOWN account (in neither list)
+
+
+
+-x ensures an exact whole-line match in users.old, the comma is used to determine which exactly you look for, Using grep -q admin without an exact-match condition can cause false positives

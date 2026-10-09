@@ -1,0 +1,43 @@
+alice: CURRENT account
+Failed password for alice: 0
+Accepted password for alice: 6
+Risk: NONE (no failed attempts)
+WARNING: current account 'alice' has accepted logins AND appears in case/evidence/passwords.txt (plaintext credentials exposed)!
+bob: CURRENT account
+Failed password for bob: 0
+Accepted password for bob: 5
+Risk: NONE (no failed attempts)
+WARNING: current account 'bob' has accepted logins AND appears in case/evidence/passwords.txt (plaintext credentials exposed)!
+eve: CURRENT account
+Failed password for eve: 0
+Accepted password for eve: 3
+Risk: NONE (no failed attempts)
+david: CURRENT account
+david: account is DISABLED
+Failed password for david: 0
+Accepted password for david: 0
+Risk: NONE (no failed attempts)
+admin: LEGACY account (only in the old backup list)
+Failed password for admin: 17
+Accepted password for admin: 0
+Risk: HIGH (17 failed attempts)
+WARNING: legacy account 'admin' was targeted by 17 failed login(s) - attacker may be guessing account names!
+root: LEGACY account (only in the old backup list)
+Failed password for root: 10
+Accepted password for root: 0
+Risk: MEDIUM (10 failed attempts)
+WARNING: legacy account 'root' was targeted by 10 failed login(s) - attacker may be guessing account names!
+backup: LEGACY account (only in the old backup list)
+Failed password for backup: 4
+Accepted password for backup: 0
+Risk: LOW (4 failed attempts)
+WARNING: legacy account 'backup' was targeted by 4 failed login(s) - attacker may be guessing account names!
+oracle: UNKNOWN account (in neither list)
+Failed password for oracle: 3
+Accepted password for oracle: 0
+Risk: LOW (3 failed attempts)
+WARNING: unknown account 'oracle' was targeted by 3 failed login(s) - attacker may be guessing account names!
+nobody: UNKNOWN account (in neither list)
+Failed password for nobody: 0
+Accepted password for nobody: 0
+Risk: NONE (no failed attempts)
