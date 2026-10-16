@@ -1,0 +1,7 @@
+The empty test, [ -s  ] tests if the file is empty and its actually to it fails
+
+Because if its not a file it fails on the first if attempt, otherwise if its a readable directory for example it would stay longer on the loop
+
+Because /dev/null is a void and doesnt store any data, not being a file or directory
+
+Done.

@@ -1,0 +1,11 @@
+admin: 17 failed and 0 accepted login(s) — investigate
+root: 10 failed and 0 accepted login(s) — investigate
+alice: 6 successful login(s) only
+charlie: 1 successful login(s) only
+frank: no activity found
+
+It checks if there is any line on the logfile with the username, if not because theres no accept or denied access it cancels automatically
+
+Because the username can appear in other lines not necessarily being an access try
+
+Yes, the account alice and bob was the one with access from different ips and are the ones that password are in plaintext.

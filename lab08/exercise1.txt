@@ -1,0 +1,13 @@
+case/logs/auth.log is a regular file
+  and it is not empty (5736 bytes)
+case/nested is a directory
+case/evidence/empty.bin is a regular file
+  but it is empty
+case/logs/missing.log does not exist
+/dev/null exists but is neither a regular file nor a directory
+
+Because in order to access a directory you need to execute it so every directory come as executable by standard
+
+Only check.sh has a shebang but its not an executable, file doesnt recognise both .py files because theyre just ascii texts.
+
+Yes, I was able to delete a read-only file in the scratch.log example because read-only permissions typically prevent modifying a file’s contents, but do not necessarily prevent its deletion

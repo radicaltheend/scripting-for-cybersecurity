@@ -1,0 +1,1 @@
+No, because F means fixed string and . will still mean any character

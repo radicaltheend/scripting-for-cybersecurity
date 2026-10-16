@@ -1,0 +1,9 @@
+#!/bin/bash
+IP               auth.log   access.log   firewall.log
+203.0.113.10	   15		21		1
+198.51.100.24	   14		19		1
+203.0.113.200	   5		0		1
+
+Because the exit code allows the user to know exactly where the problem
+
+Because 203.0.113.1 is part of a longer ip like 203.0.113.10, since checkip separates with -w and F it only looks for the EXACTLY IP
