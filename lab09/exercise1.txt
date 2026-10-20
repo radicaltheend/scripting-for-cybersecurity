@@ -1,0 +1,5 @@
+Done.
+Yes, because only authlog use the synxtax failed password so it will only count the lines in it.
+A list can be out of date if you add more files or directories, so its better to use * because it will always include new ones
+Done.
+No, because the depth of the files are in different layers of the case directory

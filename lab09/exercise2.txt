@@ -1,0 +1,11 @@
+MATCH   : 203.0.113.10 found in auth.log
+MATCH   : 198.51.100.24 found in auth.log
+no match: malicious.example
+no match: bad-login.example
+no match: 44d88612fea8a8f36de82e1278abb02f
+MATCH   : 203.0.113.200 found in auth.log
+no match: suspicious.example
+It would count as 2, malicious AND host because indicator takes different values when theres a space.
+Yes, they agree.
+203.0.113.10 and 198.51.100.24 were found on all 3 files, and websites or files with .example or hash tester were not found in any
+All the ones that are not ips, i wouldnt add unless the syntax of an extra file would be different from auth.log (that uses ips attempt)
