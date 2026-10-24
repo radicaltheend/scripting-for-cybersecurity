@@ -1,0 +1,15 @@
+[0
+0]
+Done, true doesnt print anything
+
+]633;E;for FILE in case/logs/*.xyz;8de24f2e-6ed2-44e6-bafe-00b1c30c1fab]633;CFound: case/logs/*.xyz
+Done, added [ -f case/logs/*.xyz ] and nothing prints, since theres no .xyz that is actually a file
+
+case/evidence/archive.zip: FAILED open or read
+case/evidence/empty.bin: FAILED open or read
+case/evidence/image.png: FAILED open or read
+case/evidence/notes.txt: FAILED open or read
+case/evidence/passwords.txt: FAILED open or read
+case/evidence/readme.md: FAILED open or read
+case/evidence/suspicious.dat: FAILED open or read
+I tried to run sha257sum -c on baseline_hashes.txt from other directory and got the error above

@@ -1,0 +1,76 @@
+File name: case/evidence/archive.zip
+File size: 138
+File hash: 4c25603189da855a2e0ce4704cceead19644a3378c15ce154773534be9e67040  case/evidence/archive.zip
+OK case/evidence/archive.zip — Zip archive data, at least v2.0 to extract, compression method=deflate
+
+File name: case/evidence/empty.bin
+File size: 0
+File hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  case/evidence/empty.bin
+!! case/evidence/empty.bin — expected Bin, detected: empty
+
+File name: case/evidence/image.png
+File size: 66
+File hash: 62d7693d527ce6e5cf4a4f54478b889fe3e01a144d09a0a0482ca512d4225b3a  case/evidence/image.png
+OK case/evidence/image.png — PNG image data, 1 x 1, 8-bit/color RGBA, non-interlaced
+
+File name: case/evidence/notes.txt
+File size: 64
+File hash: 8ec8ceec9c70cf7c7934f6ed0832ea0609e9cff50d4f871cc8332223e5cf30cb  case/evidence/notes.txt
+Lines: 2
+OK case/evidence/notes.txt — ASCII text
+
+File name: case/evidence/passwords.txt
+File size: 33
+File hash: eddfa3ed00f03f2000f32dc9df2c3c23705612880d60510ef862885969f9d44f  case/evidence/passwords.txt
+Lines: 2
+OK case/evidence/passwords.txt — ASCII text
+
+File name: case/evidence/readme.md
+File size: 45
+File hash: 252c8b4f506eca38cf742a017bd56fa2a0079bd89dbf00e2db962c631be3f4e3  case/evidence/readme.md
+Lines: 2
+OK case/evidence/readme.md — ASCII text
+
+File name: case/evidence/suspicious.dat
+File size: 132
+File hash: e1105562d3473531bf8157f2f95837c606bcfdca3b098026a2aceec4d3c783c0  case/evidence/suspicious.dat
+!! case/evidence/suspicious.dat — expected Dat, detected: ELF, unknown class 154
+
+File name: case/scripts/check.sh
+File size: 35
+File hash: e51a9378b524ebe982851a380e5929b7f0bfc4d171ab956f06e30383d7ac0892  case/scripts/check.sh
+OK case/scripts/check.sh — Bourne-Again shell script, ASCII text executable
+
+File name: case/scripts/report.py
+File size: 27
+File hash: 917da56864a3d94f634620e58b4244ce201bc435371b6923935fa00ab5e79ffe  case/scripts/report.py
+!! case/scripts/report.py — expected Python, detected: ASCII text
+
+File name: case/scripts/scan.py
+File size: 87
+File hash: 297f24d229cf5b5e57ba604eb11ccb170c2d0bf14da327d8172614928939a132  case/scripts/scan.py
+!! case/scripts/scan.py — expected Python, detected: ASCII text
+
+File name: case/logs/access.log
+File size: 7915
+File hash: e166e9a99ec7169f5a85791447d3b4679e18102f86748add7c5a7f98b3f2c8dd  case/logs/access.log
+  MATCH: 203.0.113.10 (21 lines)
+  MATCH: 198.51.100.24 (19 lines)
+OK case/logs/access.log — ASCII text
+
+File name: case/logs/auth.log
+File size: 5736
+File hash: 20aae6a32fc9a123ceb4d2ab685f6e93c14196c2806ab4500e7279f5c60d0836  case/logs/auth.log
+  MATCH: 203.0.113.10 (15 lines)
+  MATCH: 198.51.100.24 (14 lines)
+  MATCH: 203.0.113.200 (5 lines)
+OK case/logs/auth.log — ASCII text
+
+File name: case/logs/firewall.log
+File size: 180
+File hash: 0c6ee9f39d3cbf98100f14dad8a00910fd2010dc0fd153dd0ae8aa31696370b7  case/logs/firewall.log
+  MATCH: 203.0.113.10 (1 lines)
+  MATCH: 198.51.100.24 (1 lines)
+  MATCH: 203.0.113.200 (1 lines)
+OK case/logs/firewall.log — ASCII text
+

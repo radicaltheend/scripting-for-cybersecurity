@@ -1,0 +1,31 @@
+OK case/evidence/archive.zip — Zip archive data, at least v2.0 to extract, compression method=deflate
+?? case/evidence/empty.bin — no expectation for this extension; detected: empty
+OK case/evidence/image.png — PNG image data, 1 x 1, 8-bit/color RGBA, non-interlaced
+OK case/evidence/notes.txt — ASCII text
+OK case/evidence/passwords.txt — ASCII text
+OK case/evidence/readme.md — ASCII text
+?? case/evidence/suspicious.dat — no expectation for this extension; detected: ELF, unknown class 154
+
+OK case/evidence/archive.zip — Zip archive data, at least v2.0 to extract, compression method=deflate
+!! case/evidence/empty.bin — expected Bin, detected: empty
+OK case/evidence/image.png — PNG image data, 1 x 1, 8-bit/color RGBA, non-interlaced
+OK case/evidence/notes.txt — ASCII text
+OK case/evidence/passwords.txt — ASCII text
+OK case/evidence/readme.md — ASCII text
+!! case/evidence/suspicious.dat — expected Dat, detected: ELF, unknown class 154
+
+177 is the magic bytes of ELF, or 0x7f
+
+An ELF file reported as having an “unknown class” suggests that its ELF header is malformed, corrupted, truncated, or deliberately modified
+You should never try to run a unknown class because can have something malicious, you can make some checks with file, sha256sum, xxd, etc.
+
+OK case/evidence/archive.zip — Zip archive data, at least v2.0 to extract, compression method=deflate
+!! case/evidence/empty.bin — expected Bin, detected: empty
+OK case/evidence/image.png — PNG image data, 1 x 1, 8-bit/color RGBA, non-interlaced
+OK case/evidence/notes.txt — ASCII text
+OK case/evidence/passwords.txt — ASCII text
+OK case/evidence/readme.md — ASCII text
+!! case/evidence/suspicious.dat — expected Dat, detected: ELF, unknown class 154
+OK case/scripts/check.sh — Bourne-Again shell script, ASCII text executable
+!! case/scripts/report.py — expected Python, detected: ASCII text
+!! case/scripts/scan.py — expected Python, detected: ASCII text

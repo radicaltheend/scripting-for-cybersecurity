@@ -1,0 +1,13 @@
+4c4
+< 8ec8ceec9c70cf7c7934f6ed0832ea0609e9cff50d4f871cc8332223e5cf30cb  work_evidence/notes.txt
+---
+> 578d69352fcdfdd590bd8c4ea0f8ab02149405bd130d89bafd3276b63693a046  work_evidence/notes.txt
+
+Because wc -c checks changes by file size while sha256sum gives the cryptographich hash, so even if the file remains the same size it wont be the same hash, sha256sum would detect.
+
+Everything report OK, it means none of the files has changed since last sha256sum check. Thats my case, but it could also report FAILED what means the file was modified and it hash has been changed since last check.
+
+This demonstrates that identical byte sequences produce identical SHA-256 hashes, including the empty byte sequence.
+None of the files md5sum matched the one on iocs.txt, a hash indicator is only useful when the file matches byte for byte because even a tiny change in the file’s contents produces a different hash.
+
+Done, everything deleted
