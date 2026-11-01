@@ -1,0 +1,45 @@
+MATCH: 203.0.113.10
+MATCH: 198.51.100.24
+Total IOC matches in case/logs/access.log: 2
+MATCH: 203.0.113.10
+MATCH: 198.51.100.24
+MATCH: 203.0.113.200
+Total IOC matches in case/logs/auth.log: 3
+MATCH: 203.0.113.10
+MATCH: 198.51.100.24
+MATCH: 203.0.113.200
+Total IOC matches in case/logs/firewall.log: 3
+
+MATCH: 203.0.113.10
+MATCH: 198.51.100.24
+Total IOC matches in case/logs/access.log: 2
+Total NO matches in case/logs/access.log: 5
+MATCH: 203.0.113.10
+MATCH: 198.51.100.24
+MATCH: 203.0.113.200
+Total IOC matches in case/logs/auth.log: 3
+Total NO matches in case/logs/auth.log: 4
+MATCH: 203.0.113.10
+MATCH: 198.51.100.24
+MATCH: 203.0.113.200
+Total IOC matches in case/logs/firewall.log: 3
+Total NO matches in case/logs/firewall.log: 4
+
+User: david | role: student | status: disabled | dept: [Computing]
+User: frank | role: student | status: disabled | dept: [Computing]
+User: heidi | role: staff | status: disabled | dept: [Finance]
+
+User: eve | role: staff | status: active | dept: [Security]
+Because it is carrying more than security and \r removes any trailing carriage
+
+Because the purpose of the script is to take each part that is already divided by spaces, using IFS it would take the entire like as ACTION
+
+BLOCK from 203.0.113.10 to port 22
+BLOCK from 198.51.100.24 to port 22
+BLOCK from 203.0.113.200 to port 3389
+
+Blocked connections per port:
+Port 22:   2
+Port 80:   0
+Port 443:  0
+Port 3389: 1

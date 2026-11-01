@@ -1,0 +1,19 @@
+File Triage Report
+ 
+Total files: 24
+ 
+Total directories: 9
+ 
+Python files: ./scripts/report.py
+./scripts/scan.py
+ 
+Shell scripts: ./scripts/check.sh
+ 
+Log Files: ./logs/firewall.log
+./logs/auth.log
+./logs/access.log
+./nested/archive/old.log
+ 
+Configuration Files: ./configs/app.conf
+./configs/server.conf
+./configs/backup.conf
