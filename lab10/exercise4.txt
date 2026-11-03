@@ -1,0 +1,11 @@
+It found 4 logs, including old.log that wasnt found on lab 9
+
+On lost_count beucase of the pipe the increasing of count happens in a subshell, not the main one, so when the 
+loop finishes the count comes back to the original value. 
+On kept_count you are explicity telling to keep the counting on main shell because ur not piping
+
+Done, check the addition of wc -l on kept_count
+
+Auth.log, access.log, users.old and notes.txt has admin mentioned
+
+auth.log mentions on 17 lines, and password.txt has the name password but 0 lines

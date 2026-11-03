@@ -1,0 +1,3 @@
+4 times only, because -le still keeps running if its equal 5, but -lt stop running when it reaches 5
+old.log has no matches, so i created a variable to point everytime that there is no matches and print the error message only if true, check find_first.sh
+ while ! f so it runs until you select a FILE, as logs is a directory it will keep running until the maximum attempt
